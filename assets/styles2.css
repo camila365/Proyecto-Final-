@@ -1,0 +1,9 @@
+header {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.row .col-md-4 {
+    width: 50%;
+}
+

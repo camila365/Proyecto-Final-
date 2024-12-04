@@ -37,11 +37,15 @@ header {
     text-decoration: none !important;
 }
 
-#carrito{
+nav button{
     margin-left: 1100px;
     margin-top: -30px;
     
 
+}
+
+.dropdown-menu {
+    width: 20%;
 }
 
 /* Fin barra de navegacion para todas las paginas*/

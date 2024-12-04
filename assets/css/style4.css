@@ -1,6 +1,6 @@
 body{
     
-    
+    background-color: rgb(0, 0, 0);
 }
   
 
@@ -9,7 +9,7 @@ body{
     font-family: 'Times New Roman', Times, serif !important;
     background-color: rgb(255, 255, 255);
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
+    justify-content: center !important; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
     
 }
@@ -32,4 +32,29 @@ body{
      margin-top: -30px;
      
 
+}
+
+.col-5{
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.col-2{
+    color: white;
+
+}
+#nombrecito{
+    width: auto;
+    height: 200px;
+     
+    
+}
+.col-5 li{
+    font-size: 60%;
+    font-weight: normal;
+}
+.row ul{
+    text-align: left;
 }

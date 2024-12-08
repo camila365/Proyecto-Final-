@@ -1,0 +1,108 @@
+body{
+    
+    background-color: rgb(0, 0, 0);
+}
+  
+
+.navbar{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif !important;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: left !important; /* Centra horizontalmente */ 
+    align-items: center; /* Centra verticalmente */
+    
+}
+
+.navbar ul{
+    font-size: 20px;
+}
+.navbar li{
+    display: inline;
+    margin: 100px;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none !important;
+}
+
+#button_principal{
+    margin-left: 1100px;
+    margin-top: -30px;
+    
+
+}
+
+#button_send {
+    display: flex;
+    justify-content: center !important;
+}
+
+.dropdown-menu {
+    width: 20%;
+}
+
+
+
+
+#carrito{
+     margin-left: 1100px;
+     margin-top: -30px;
+     
+
+}
+
+.col-5{
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.col-2{
+    color: white;
+    font-weight: bold;
+
+}
+#nombrecito{
+    width: auto;
+    height: 200px;    
+}
+.col-5 li{
+    font-size: 50%;
+    font-weight: normal !important;
+}
+.row ul{
+    text-align: left;
+}
+
+p{
+    font-weight: normal !important;
+    text-align: left !important;
+    font-size: 50%;
+    padding-top: 30px;
+    line-height: 1.5;
+}
+hr {
+    width: 100%; /* Hace que abarque todo el ancho del contenedor */
+    border: 1px solid #ccc; /* Ajusta el grosor y color */
+    margin: 20px 0; /* Espaciado superior e inferior */
+    color: white;
+  }
+#chipcito{
+    width: auto;
+    height: 260px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between; /* Espaciar elementos */
+    align-items: center; /* Alinear verticalmente */
+    padding: 0px;
+    width: 100% !important;
+    background-color: #ffffff;
+    border-top: 10px solid #000000;
+    position: relative;
+    
+}

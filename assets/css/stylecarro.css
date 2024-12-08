@@ -1,0 +1,146 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black !important;
+
+}
+
+.navbar {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif !important;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: left !important;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    width: 100% !important;
+
+
+}
+
+header {
+    width: 100% !important;
+}
+
+.navbar ul {
+    font-size: 20px;
+}
+
+.navbar li {
+    display: inline;
+    margin: 100px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none !important;
+}
+
+#button_principal {
+    margin-left: 1100px;
+    margin-top: -30px;
+
+
+}
+
+#title1 {
+    text-align: center !important;
+    color: #ffffff;
+}
+
+#button_send {
+    display: flex;
+    justify-content: center !important;
+}
+
+.dropdown-menu {
+    width: 20%;
+}
+
+
+
+.container {
+    margin: 0; /* Elimina márgenes automáticos */
+    padding-left: 10px; /* Ajusta el espacio a la izquierda */
+    width: 100% !important; /* Asegura que ocupe todo el ancho disponible */
+    text-align: left; /* Alinea todo el contenido dentro del contenedor a la izquierda */
+  }
+#content_articulos {
+    display: flex; /* Usa flex para alinear los artículos */
+    flex-wrap: wrap; /* Permite que los artículos pasen a una nueva línea si es necesario */
+  }
+
+  .producto {
+    text-align: left; /* Alinea los elementos individuales dentro de cada producto */
+    color: #ffffff !important;
+  }
+
+#button_producto button{
+    margin: 15px;
+}
+
+
+div img {
+    width: 70%;
+}
+
+#carrito-container {
+    width: 200px;
+
+    top: 250px;
+    right: 50px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+
+aside {
+    position: fixed;
+    /* Fija el aside en la posición especificada */
+    top: 48% !important;
+    /* Centra verticalmente */
+    right: 0;
+    /* Lo coloca en el lado derecho */
+    transform: translateY(-50%);
+    /* Ajusta para centrar exactamente */
+    display: flex;
+    flex-direction: column;
+    /* Organiza los elementos en columna */
+    justify-content: center;
+    /* Centra verticalmente dentro del aside */
+    align-items: center;
+    /* Centra horizontalmente los elementos dentro */
+    width: 300px;
+    /* Ancho del aside */
+    background-color: #f9f9f9;
+    /* Fondo para resaltar */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px 0 0 8px;
+    /* Bordes redondeados solo en la esquina izquierda */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+}
+
+
+.producto {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#lista-carrito {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer{
+    background-color: #ffffff;
+}
+
+.icons_footer {
+    width: 4%;
+}

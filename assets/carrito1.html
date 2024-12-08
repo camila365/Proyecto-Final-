@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="stylecarro.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pag2.html">Shop</a></li>
+                <li><a href="carrito1.html">Carrito</a></li>
+                <li><a href="contacto.html">Contact</a></li>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" id="button_principal">
+                        📩
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li class="dropdown-header">*Max 100 palabras</li>
+                        <form class="p-3">
+                            <label for="comentarios">Escriba sus comentarios</label><br>
+                            <textarea id="comentarios" class="form-control mb-2" rows="4"
+                                style="resize: none;"></textarea>
+                            <button id="buton_comentarios" type="button" class="btn btn-primary w-100">Send</button>
+                        </form>
+                    </ul>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container col-md-4" id="button_producto" >
+        <h1 class="my-4 text-center" id="title1">Compra tu iPhone favorito</h1><br><br>
+        <div class="row col-9" id="content_articulos">
+            <!-- Productos -->
+            <div class="col-md-4 producto" >
+                <img src="img/Iphone1_carro.jpg" alt="iPhone 16">
+                <h3>iPhone 16</h3>
+                <p>$999.99</p>
+                <input type="number" class="contador" value="0" min="0">
+                <button class="btn btn-dark agregar-carrito" data-nombre="iPhone 16" data-precio="999.99">Agregar al
+                    Carrito</button>
+            </div>
+            <div class="col-md-4 producto">
+                <img src="img/Iphone1_carro.jpg" alt="iPhone 16 Pro">
+                <h3>iPhone 16 Pro</h3>
+                <p>$1,099.99</p>
+                <input type="number" class="contador" value="0" min="0">
+                <button class="btn btn-dark agregar-carrito" data-nombre="iPhone 16 Pro" data-precio="1099.99">Agregar
+                    al Carrito</button>
+            </div>
+            <div class="col-md-4 producto">
+                <img src="img/Iphone1_carro.jpg" alt="iPhone 16 Pro Max">
+                <h3>iPhone 16 Pro Max</h3>
+                <p>$1,299.99</p>
+                <input type="number" class="contador" value="0" min="0">
+                <button class="btn btn-dark agregar-carrito" data-nombre="iPhone 16 Pro Max"
+                    data-precio="1299.99">Agregar al Carrito</button>
+            </div>
+        </div>
+    </div><br><br><br>
+
+
+    <div id="bloquec">
+        <aside id="carrito-container">
+            <h4>Carrito de Compras</h4>
+            <ul id="lista-carrito"></ul>
+            <p id="total">Total: $0.00</p>
+            <button class="btn btn-success" onclick="pagar()">Pagar con PayPal</button>
+        </aside>
+    
+</div>
+
+
+    <script src="scriptcarro.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+<footer>
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-3">
+                <p class="foot">
+                    <img src="img/icontel.png" class="icons_footer"> Contacto: 3176549234<br>
+                    <img src="img/iconemail.png" class="icons_footer"> Correo: ejemplo@gmail.com<br>
+                </p>
+            </div>
+            <div class="col-6">
+                <p class="foot">
+                    <img src="img/iconheart.png" class="icons_footer"> GRACIAS POR SU VISITA
+                </p>
+            </div>
+            <div class="col-3">
+                <p class="foot">
+                    <img src="img/hogar.png" class="icons_footer"> Calle falsa 123, NY city.<br>
+                    <img src="img/copyrigth.png" class="icons_footer"> Copyrigth 2022<br>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
